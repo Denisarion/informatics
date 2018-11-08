@@ -1,0 +1,97 @@
+object Form1: TForm1
+  Left = 487
+  Height = 240
+  Top = 208
+  Width = 510
+  ActiveControl = Edit1
+  Caption = 'Задание 4.1. Вычисление  S и <a'
+  ClientHeight = 240
+  ClientWidth = 510
+  DesignTimePPI = 106
+  LCLVersion = '1.8.4.0'
+  Visible = False
+  object Label1: TLabel
+    Left = 35
+    Height = 17
+    Top = 48
+    Width = 160
+    Caption = 'Введи длину основания (а)'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 35
+    Height = 17
+    Top = 112
+    Width = 137
+    Caption = 'Введи высоту треуг. (h)'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 208
+    Height = 25
+    Hint = 'а'
+    Top = 40
+    Width = 80
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 208
+    Height = 25
+    Hint = 'h'
+    Top = 104
+    Width = 80
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 389
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Расчет'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 35
+    Height = 17
+    Top = 176
+    Width = 80
+    Caption = 'Площадь S ='
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 248
+    Height = 17
+    Top = 176
+    Width = 162
+    Caption = 'Угол при основании (<a) ='
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 128
+    Height = 25
+    Top = 168
+    Width = 40
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    Left = 416
+    Height = 25
+    Top = 168
+    Width = 48
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 35
+    Height = 1
+    Top = 144
+    Width = 1
+    ParentColor = False
+  end
+end
